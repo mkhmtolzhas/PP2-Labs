@@ -6,4 +6,8 @@ def is_it_prime(number):
             return False
     return True
 
-print(*[int(i) for i in input().split() if is_it_prime(int(i))])
+def filter_prime(list : list):
+    return [int(i) for i in input().split() if is_it_prime(int(i))]
+
+
+print(filter_prime(list = [int (i) for i in input().split()]))
