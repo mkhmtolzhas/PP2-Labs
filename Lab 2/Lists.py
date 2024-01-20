@@ -1,3 +1,21 @@
+mylist = ["apple", "banana", "cherry"]
+
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+
+thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
+
+
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+
 fruits = ["apple", "banana", "cherry"]
 print(fruits[1])
 

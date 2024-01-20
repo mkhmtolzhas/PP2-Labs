@@ -1,3 +1,4 @@
+#Exercises
 x = "Hello World!"
 print(len(x)) #Можно использовать это для всех контейнеров
 
